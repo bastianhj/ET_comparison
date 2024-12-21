@@ -1,0 +1,10 @@
+"","Estimate","Std.err.","t-ratio(0)","Rob.std.err.","Rob.t-ratio(0)"
+"b_bus",0,NA,NA,NA,NA
+"b_metro",1.64856959082967,NA,NA,NA,NA
+"b_RH",0.6940655259872,NA,NA,NA,NA
+"b_time",-0.0404860227414161,NA,NA,NA,NA
+"b_cost",-0.17546076984782,NA,NA,NA,NA
+"b_comfort",0.238663554547876,NA,NA,NA,NA
+"b_time_att",-64.4904004872377,NA,NA,NA,NA
+"b_cost_att",0.371381111772049,NA,NA,NA,NA
+"b_comfort_att",17.3324691719237,NA,NA,NA,NA

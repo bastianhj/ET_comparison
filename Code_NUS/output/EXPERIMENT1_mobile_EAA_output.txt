@@ -1,0 +1,395 @@
+Model run by Bastian_Henriquez using Apollo 0.3.1 on R 4.3.3 for Windows.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : EXPERIMENT1_mobile_EAA
+Model description                           : MNL for transport choices - ET comparison
+Model run at                                : 2024-12-21 13:33:31.32971
+Estimation method                           : bgw
+Model diagnosis                             : Relative function convergence
+Optimisation diagnosis                      : Saddle point found
+     hessian properties                     : Some eigenvalues are positive and others negative
+     maximum eigenvalue                     : 0
+     reciprocal of condition number         : not calculated (Hessian is not negative definite)
+Number of individuals                       : 40
+Number of rows in database                  : 480
+Number of modelled outcomes                 : 480
+
+Number of cores used                        :  1 
+Model without mixing
+
+LL(start)                                   : -527.33
+LL (whole model) at equal shares, LL(0)     : -527.33
+LL (whole model) at observed shares, LL(C)  : -392.98
+LL(final, whole model)                      : -290.67
+Rho-squared vs equal shares                  :  0.4488 
+Adj.Rho-squared vs equal shares              :  0.4336 
+Rho-squared vs observed shares               :  0.2604 
+Adj.Rho-squared vs observed shares           :  0.2807 
+AIC                                         :  597.34 
+BIC                                         :  630.73 
+
+LL(0,Class_1)                    : -527.33
+LL(final,Class_1)                : -685.93
+LL(0,Class_2)                    : -527.33
+LL(final,Class_2)                : -447.75
+LL(0,Class_3)                    : -527.33
+LL(final,Class_3)                : -1208.79
+LL(0,Class_4)                    : -527.33
+LL(final,Class_4)                : -919.13
+LL(0,Class_5)                    : -527.33
+LL(final,Class_5)                : -398.2
+LL(0,Class_6)                    : -527.33
+LL(final,Class_6)                : -441.7
+LL(0,Class_7)                    : -527.33
+LL(final,Class_7)                : -838.63
+LL(0,Class_8)                    : -527.33
+LL(final,Class_8)                : -555.18
+
+Estimated parameters                        : 8
+Time taken (hh:mm:ss)                       :  00:00:15.4 
+     pre-estimation                         :  00:00:10.44 
+     estimation                             :  00:00:2.73 
+     post-estimation                        :  00:00:2.23 
+Iterations                                  :  32  
+
+Unconstrained optimisation.
+
+Estimates:
+                 Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
+b_bus              0.0000          NA          NA          NA            NA
+b_metro            1.0816          NA          NA          NA            NA
+b_RH              -2.8419          NA          NA          NA            NA
+b_time            -0.1221          NA          NA          NA            NA
+b_cost            -0.1982          NA          NA          NA            NA
+b_comfort         -0.8251          NA          NA          NA            NA
+b_time_att       149.1224          NA          NA          NA            NA
+b_cost_att         0.6535          NA          NA          NA            NA
+b_comfort_att     -5.3597          NA          NA          NA            NA
+
+
+Summary of class allocation for model component :
+         Mean prob.
+Class_1    0.003079
+Class_2    0.001602
+Class_3    0.000000
+Class_4    0.000000
+Class_5    0.654717
+Class_6    0.340602
+Class_7    0.000000
+Class_8    0.000000
+
+
+Overview of choices for MNL model component Class_1:
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 334.00  88.00
+Percentage chosen overall         12.08  69.58  18.33
+Percentage chosen when available  12.08  69.58  18.33
+
+
+
+Overview of choices for MNL model component Class_2:
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 334.00  88.00
+Percentage chosen overall         12.08  69.58  18.33
+Percentage chosen when available  12.08  69.58  18.33
+
+
+
+Overview of choices for MNL model component Class_3:
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 334.00  88.00
+Percentage chosen overall         12.08  69.58  18.33
+Percentage chosen when available  12.08  69.58  18.33
+
+
+
+Overview of choices for MNL model component Class_4:
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 334.00  88.00
+Percentage chosen overall         12.08  69.58  18.33
+Percentage chosen when available  12.08  69.58  18.33
+
+
+
+Overview of choices for MNL model component Class_5:
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 334.00  88.00
+Percentage chosen overall         12.08  69.58  18.33
+Percentage chosen when available  12.08  69.58  18.33
+
+
+
+Overview of choices for MNL model component Class_6:
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 334.00  88.00
+Percentage chosen overall         12.08  69.58  18.33
+Percentage chosen when available  12.08  69.58  18.33
+
+
+
+Overview of choices for MNL model component Class_7:
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 334.00  88.00
+Percentage chosen overall         12.08  69.58  18.33
+Percentage chosen when available  12.08  69.58  18.33
+
+
+
+Overview of choices for MNL model component Class_8:
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 334.00  88.00
+Percentage chosen overall         12.08  69.58  18.33
+Percentage chosen when available  12.08  69.58  18.33
+
+
+
+Classical covariance matrix:
+                    b_metro          b_RH        b_time        b_cost     b_comfort    b_time_att    b_cost_att
+b_metro                  NA            NA            NA            NA            NA            NA            NA
+b_RH                     NA            NA            NA            NA            NA            NA            NA
+b_time                   NA            NA            NA            NA            NA            NA            NA
+b_cost                   NA            NA            NA            NA            NA            NA            NA
+b_comfort                NA            NA            NA            NA            NA            NA            NA
+b_time_att               NA            NA            NA            NA            NA            NA            NA
+b_cost_att               NA            NA            NA            NA            NA            NA            NA
+b_comfort_att            NA            NA            NA            NA            NA            NA            NA
+              b_comfort_att
+b_metro                  NA
+b_RH                     NA
+b_time                   NA
+b_cost                   NA
+b_comfort                NA
+b_time_att               NA
+b_cost_att               NA
+b_comfort_att            NA
+
+Robust covariance matrix:
+                    b_metro          b_RH        b_time        b_cost     b_comfort    b_time_att    b_cost_att
+b_metro                  NA            NA            NA            NA            NA            NA            NA
+b_RH                     NA            NA            NA            NA            NA            NA            NA
+b_time                   NA            NA            NA            NA            NA            NA            NA
+b_cost                   NA            NA            NA            NA            NA            NA            NA
+b_comfort                NA            NA            NA            NA            NA            NA            NA
+b_time_att               NA            NA            NA            NA            NA            NA            NA
+b_cost_att               NA            NA            NA            NA            NA            NA            NA
+b_comfort_att            NA            NA            NA            NA            NA            NA            NA
+              b_comfort_att
+b_metro                  NA
+b_RH                     NA
+b_time                   NA
+b_cost                   NA
+b_comfort                NA
+b_time_att               NA
+b_cost_att               NA
+b_comfort_att            NA
+
+Classical correlation matrix:
+                    b_metro          b_RH        b_time        b_cost     b_comfort    b_time_att    b_cost_att
+b_metro                  NA            NA            NA            NA            NA            NA            NA
+b_RH                     NA            NA            NA            NA            NA            NA            NA
+b_time                   NA            NA            NA            NA            NA            NA            NA
+b_cost                   NA            NA            NA            NA            NA            NA            NA
+b_comfort                NA            NA            NA            NA            NA            NA            NA
+b_time_att               NA            NA            NA            NA            NA            NA            NA
+b_cost_att               NA            NA            NA            NA            NA            NA            NA
+b_comfort_att            NA            NA            NA            NA            NA            NA            NA
+              b_comfort_att
+b_metro                  NA
+b_RH                     NA
+b_time                   NA
+b_cost                   NA
+b_comfort                NA
+b_time_att               NA
+b_cost_att               NA
+b_comfort_att            NA
+
+Robust correlation matrix:
+                    b_metro          b_RH        b_time        b_cost     b_comfort    b_time_att    b_cost_att
+b_metro                  NA            NA            NA            NA            NA            NA            NA
+b_RH                     NA            NA            NA            NA            NA            NA            NA
+b_time                   NA            NA            NA            NA            NA            NA            NA
+b_cost                   NA            NA            NA            NA            NA            NA            NA
+b_comfort                NA            NA            NA            NA            NA            NA            NA
+b_time_att               NA            NA            NA            NA            NA            NA            NA
+b_cost_att               NA            NA            NA            NA            NA            NA            NA
+b_comfort_att            NA            NA            NA            NA            NA            NA            NA
+              b_comfort_att
+b_metro                  NA
+b_RH                     NA
+b_time                   NA
+b_cost                   NA
+b_comfort                NA
+b_time_att               NA
+b_cost_att               NA
+b_comfort_att            NA
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+ ID Avg prob per choice
+ 24           0.2167137
+  2           0.3151280
+ 19           0.3290491
+ 12           0.3354813
+ 29           0.3553192
+ 32           0.3804810
+  9           0.3926188
+  6           0.4026304
+ 26           0.4027490
+ 36           0.4458372
+  1           0.4518630
+ 37           0.4934292
+ 23           0.5036204
+ 30           0.5109749
+ 16           0.5255157
+ 21           0.5360705
+ 34           0.5375558
+  5           0.5714495
+ 38           0.5735739
+ 14           0.5787461
+
+Changes in parameter estimates from starting values:
+                  Initial    Estimate  Difference
+b_bus               0.000      0.0000      0.0000
+b_metro             0.000      1.0816      1.0816
+b_RH                0.000     -2.8419     -2.8419
+b_time              0.000     -0.1221     -0.1221
+b_cost              0.000     -0.1982     -0.1982
+b_comfort           0.000     -0.8251     -0.8251
+b_time_att          0.000    149.1224    149.1224
+b_cost_att          0.000      0.6535      0.6535
+b_comfort_att       0.000     -5.3597     -5.3597
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                                      
+modelName              "EXPERIMENT1_mobile_EAA"                   
+modelDescr             "MNL for transport choices - ET comparison"
+indivID                "pid"                                      
+outputDirectory        "output/"                                  
+debug                  "FALSE"                                    
+nCores                 "1"                                        
+workInLogs             "FALSE"                                    
+seed                   "13"                                       
+mixing                 "FALSE"                                    
+HB                     "FALSE"                                    
+noValidation           "FALSE"                                    
+noDiagnostics          "FALSE"                                    
+calculateLLC           "TRUE"                                     
+panelData              "TRUE"                                     
+analyticGrad           "TRUE"                                     
+analyticGrad_manualSet "FALSE"                                    
+overridePanel          "FALSE"                                    
+preventOverridePanel   "FALSE"                                    
+noModification         "FALSE"                                    
+
+Hessian routines attempted
+--------------------------
+numerical second derivative of LL (using numDeriv)
+
+
+apollo_lcPars
+---------------
+function(apollo_beta, apollo_inputs){
+    lcpars = list()
+    # lcpars[["b_brand1"]] = list(b_brand1)
+    # lcpars[["b_brand2"]] = list(b_brand2)
+    # lcpars[["b_brand3"]] = list(b_brand3)
+    # lcpars[["b_material1"]] = list(b_material1)
+    # lcpars[["b_material2"]] = list(b_material2)
+    # lcpars[["b_system1"]] = list(b_system1)
+    # lcpars[["b_design1"]] = list(b_design1)
+    # lcpars[["b_design2"]] = list(b_design2)
+    # lcpars[["b_design3"]] = list(b_design3)
+    # lcpars[["b_pricecup"]] = list(b_pricecup)
+    # lcpars[["b_price"]] = list(b_price)
+    ### Utilities of class allocation model
+    
+    V_cost=b_cost_att#+b_va*va1
+    V_time=b_time_att#+b_va*va2
+    V_comfort=b_comfort_att#+b_va*va3
+    
+    V_attributes=cbind(V_cost,V_time,V_comfort)
+    class_matrix=as.matrix(expand.grid(c(1,0), c(1,0), c(1,0)))
+    
+    pi_attribute=c(1/(1+exp(-V_attributes)))
+    list_pi=list()
+    for(i in 1:8){
+      A=prod((pi_attribute^class_matrix[i,])*(1-pi_attribute)^(1-class_matrix[i,]))
+      list_pi[[i]]=A#apply(A,1,prod)#apply(matrix_power(A,(class_matrix[i,])),1,prod)
+    }
+    
+    
+    lcpars[["pi_values"]] = list_pi
+    
+    return(lcpars)
+  }
+<bytecode: 0x000001680c4f27d8>
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality="estimate"){
+    
+    ### Attach inputs and detach after function exit
+    apollo_attach(apollo_beta, apollo_inputs)
+    on.exit(apollo_detach(apollo_beta, apollo_inputs))
+    
+    ### Create list of probabilities P
+    P = list()
+    
+    mnl_settings = list(
+      alternatives  = c(bus=1,metro=2,RH=3),
+      avail=1,
+      choiceVar = Choice_id
+    )
+
+    class_matrix=(expand.grid(c(1,0), c(1,0), c(1,0)))
+    
+    for(s in 1:8){
+      
+      ### Compute class-specific utilities
+      V=list()
+      V[['bus']]=b_bus+b_cost*Bus_cost*class_matrix[s,1]+b_time*Bus_travel_time*class_matrix[s,2]+b_comfort*Bus_Comfort*class_matrix[s,3]
+      
+      V[['metro']]=b_metro+b_cost*metro_cost*class_matrix[s,1]+b_time*metro_travel_time*class_matrix[s,2]+b_comfort*metro_Comfort*class_matrix[s,3]
+      
+      V[['RH']]=b_RH+b_cost*RH_cost*class_matrix[s,1]+b_time*RH_travel_time*class_matrix[s,2]+b_comfort*RH_Comfort*class_matrix[s,3]
+      
+      mnl_settings$utilities     = V
+      mnl_settings$componentName = paste0("Class_",s)
+      
+      ### Compute within-class choice probabilities using MNL model
+      P[[paste0("Class_",s)]] = apollo_mnl(mnl_settings, functionality)
+      
+      ### Take product across observation for same individual
+      P[[paste0("Class_",s)]] = apollo_panelProd(P[[paste0("Class_",s)]], apollo_inputs ,functionality)
+      
+    }
+    
+    lc_settings  = list(inClassProb = P, classProb=pi_values)
+    
+    P[["model"]] = apollo_lc(lc_settings, apollo_inputs, functionality)
+    
+    #P = apollo_combineModels(P, apollo_inputs, functionality)
+    ### Take product across observation for same individual
+    #P = apollo_avgIntraDraws(P, apollo_inputs, functionality)
+    #P = apollo_panelProd(P, apollo_inputs, functionality)
+    ### Average across inter-individual draws
+    # P = apollo_avgInterDraws(P, apollo_inputs, functionality)
+    ### Prepare and return outputs of function
+    P = apollo_prepareProb(P, apollo_inputs, functionality)
+    
+    return(P)
+  }
+<bytecode: 0x00000168026f7a20>

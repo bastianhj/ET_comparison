@@ -1,0 +1,191 @@
+Model run by Bastian_Henriquez using Apollo 0.3.1 on R 4.3.3 for Windows.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : EXPERIMENT2_tablet_baseline_MNL
+Model description                           : MNL for pizzass choices - ET comparison
+Model run at                                : 2024-12-21 09:31:36.636645
+Estimation method                           : bgw
+Model diagnosis                             : Relative function convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -62.44767
+     reciprocal of condition number         : 0.0199081
+Number of individuals                       : 38
+Number of rows in database                  : 456
+Number of modelled outcomes                 : 456
+
+Number of cores used                        :  1 
+Model without mixing
+
+LL(start)                                   : -316.08
+LL at equal shares, LL(0)                   : -316.08
+LL at observed shares, LL(C)                : -315.21
+LL(final)                                   : -190.78
+Rho-squared vs equal shares                  :  0.3964 
+Adj.Rho-squared vs equal shares              :  0.3869 
+Rho-squared vs observed shares               :  0.3948 
+Adj.Rho-squared vs observed shares           :  0.3884 
+AIC                                         :  387.56 
+BIC                                         :  399.92 
+
+Estimated parameters                        : 3
+Time taken (hh:mm:ss)                       :  00:00:0.32 
+     pre-estimation                         :  00:00:0.12 
+     estimation                             :  00:00:0.13 
+          initial estimation                :  00:00:0.1 
+          estimation after rescaling        :  00:00:0.03 
+     post-estimation                        :  00:00:0.08 
+Iterations                                  :  11  
+     initial estimation                     :  9 
+     estimation after rescaling             :  2 
+
+Unconstrained optimisation.
+
+Estimates:
+          Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
+b_opt1    -0.05137     0.12632     -0.4066     0.13776       -0.3729
+b_opt2     0.00000          NA          NA          NA            NA
+b_qual     0.79723     0.08230      9.6873     0.09692        8.2255
+b_cost    -0.34679     0.04346     -7.9801     0.04718       -7.3497
+
+
+Overview of choices for MNL model component :
+                                   opt1   opt2
+Times available                  456.00 456.00
+Times chosen                     214.00 242.00
+Percentage chosen overall         46.93  53.07
+Percentage chosen when available  46.93  53.07
+
+
+
+Classical covariance matrix:
+            b_opt1      b_qual      b_cost
+b_opt1     0.01596  5.7003e-04 -3.2398e-04
+b_qual  5.7003e-04    0.006773   -0.003183
+b_cost -3.2398e-04   -0.003183    0.001889
+
+Robust covariance matrix:
+            b_opt1      b_qual      b_cost
+b_opt1     0.01898  5.8487e-04  5.8744e-04
+b_qual  5.8487e-04    0.009394   -0.003807
+b_cost  5.8744e-04   -0.003807    0.002226
+
+Classical correlation matrix:
+            b_opt1      b_qual      b_cost
+b_opt1     1.00000     0.05483    -0.05902
+b_qual     0.05483     1.00000    -0.88995
+b_cost    -0.05902    -0.88995     1.00000
+
+Robust correlation matrix:
+            b_opt1      b_qual      b_cost
+b_opt1     1.00000     0.04381     0.09038
+b_qual     0.04381     1.00000    -0.83240
+b_cost     0.09038    -0.83240     1.00000
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+ ID Avg prob per choice
+ 35           0.4108241
+ 37           0.4443581
+ 18           0.4662057
+ 26           0.4948636
+  9           0.4956284
+  7           0.5689876
+ 22           0.5760794
+ 10           0.6167439
+ 23           0.6227406
+ 19           0.6264738
+ 17           0.6275375
+ 16           0.6295961
+ 33           0.6433140
+ 11           0.6523830
+ 32           0.6739357
+  4           0.6745289
+ 38           0.6833506
+  5           0.6868426
+ 24           0.6868426
+ 29           0.6870822
+
+Changes in parameter estimates from starting values:
+           Initial    Estimate  Difference
+b_opt1       0.000    -0.05137    -0.05137
+b_opt2       0.000     0.00000     0.00000
+b_qual       0.000     0.79723     0.79723
+b_cost       0.000    -0.34679    -0.34679
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                                    
+modelName              "EXPERIMENT2_tablet_baseline_MNL"        
+modelDescr             "MNL for pizzass choices - ET comparison"
+indivID                "pid"                                    
+outputDirectory        "output/"                                
+debug                  "FALSE"                                  
+nCores                 "1"                                      
+workInLogs             "FALSE"                                  
+seed                   "13"                                     
+mixing                 "FALSE"                                  
+HB                     "FALSE"                                  
+noValidation           "FALSE"                                  
+noDiagnostics          "FALSE"                                  
+calculateLLC           "TRUE"                                   
+panelData              "TRUE"                                   
+analyticGrad           "TRUE"                                   
+analyticGrad_manualSet "FALSE"                                  
+overridePanel          "FALSE"                                  
+preventOverridePanel   "FALSE"                                  
+noModification         "FALSE"                                  
+
+Hessian routines attempted
+--------------------------
+numerical jacobian of LL analytical gradient
+
+Scaling used in computing Hessian
+---------------------------------
+            Value
+b_opt1 0.05136566
+b_qual 0.79723083
+b_cost 0.34679338
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality="estimate"){
+    
+    ### Attach inputs and detach after function exit
+    apollo_attach(apollo_beta, apollo_inputs)
+    on.exit(apollo_detach(apollo_beta, apollo_inputs))
+    
+    ### Create list of probabilities P
+    P = list()
+    V = list()
+    
+    
+    V[['opt1']]=b_opt1+b_cost*cost1+b_qual*qual1
+    
+    V[['opt2']]=b_opt2+b_cost*cost2+b_qual*qual2
+  
+    mnl_settings = list(
+      alternatives  = c(opt1=1,opt2=2),
+      avail=1,
+      choiceVar = Choice_id,
+      utilities = V
+    )
+    
+    P[["model"]] = apollo_mnl(mnl_settings, functionality)
+    
+    #P = apollo_combineModels(P, apollo_inputs, functionality)
+    ### Take product across observation for same individual
+    #P = apollo_avgIntraDraws(P, apollo_inputs, functionality)
+    P = apollo_panelProd(P, apollo_inputs, functionality)
+    ### Average across inter-individual draws
+    # P = apollo_avgInterDraws(P, apollo_inputs, functionality)
+    ### Prepare and return outputs of function
+    P = apollo_prepareProb(P, apollo_inputs, functionality)
+    
+    return(P)
+  }
+<bytecode: 0x00000168046bf228>

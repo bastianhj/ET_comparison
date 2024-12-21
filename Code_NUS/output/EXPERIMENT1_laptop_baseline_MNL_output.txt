@@ -1,0 +1,208 @@
+Model run by Bastian_Henriquez using Apollo 0.3.1 on R 4.3.3 for Windows.
+Please acknowledge the use of Apollo by citing Hess & Palma (2019)
+  DOI 10.1016/j.jocm.2019.100170
+  www.ApolloChoiceModelling.com
+
+Model name                                  : EXPERIMENT1_laptop_baseline_MNL
+Model description                           : MNL for transport choices - ET comparison
+Model run at                                : 2024-12-21 09:25:20.19352
+Estimation method                           : bgw
+Model diagnosis                             : Relative function convergence
+Optimisation diagnosis                      : Maximum found
+     hessian properties                     : Negative definite
+     maximum eigenvalue                     : -1.643643
+     reciprocal of condition number         : 1.56601e-05
+Number of individuals                       : 40
+Number of rows in database                  : 480
+Number of modelled outcomes                 : 480
+
+Number of cores used                        :  1 
+Model without mixing
+
+LL(start)                                   : -527.33
+LL at equal shares, LL(0)                   : -527.33
+LL at observed shares, LL(C)                : -391.64
+LL(final)                                   : -334.98
+Rho-squared vs equal shares                  :  0.3648 
+Adj.Rho-squared vs equal shares              :  0.3553 
+Rho-squared vs observed shares               :  0.1447 
+Adj.Rho-squared vs observed shares           :  0.137 
+AIC                                         :  679.96 
+BIC                                         :  700.83 
+
+Estimated parameters                        : 5
+Time taken (hh:mm:ss)                       :  00:00:0.4 
+     pre-estimation                         :  00:00:0.17 
+     estimation                             :  00:00:0.11 
+          initial estimation                :  00:00:0.09 
+          estimation after rescaling        :  00:00:0.02 
+     post-estimation                        :  00:00:0.12 
+Iterations                                  :  9  
+     initial estimation                     :  8 
+     estimation after rescaling             :  1 
+
+Unconstrained optimisation.
+
+Estimates:
+             Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
+b_bus         0.00000          NA          NA          NA            NA
+b_metro       0.85001     0.17100       4.971     0.20510         4.144
+b_RH         -2.59790     0.77437      -3.355     1.11897        -2.322
+b_time       -0.08429     0.01042      -8.092     0.01756        -4.800
+b_cost       -0.11241     0.03147      -3.573     0.03822        -2.942
+b_comfort     0.39988     0.09512       4.204     0.10840         3.689
+
+
+Overview of choices for MNL model component :
+                                    bus  metro     RH
+Times available                  480.00 480.00 480.00
+Times chosen                      58.00 335.00  87.00
+Percentage chosen overall         12.08  69.79  18.12
+Percentage chosen when available  12.08  69.79  18.12
+
+
+
+Classical covariance matrix:
+              b_metro        b_RH      b_time      b_cost   b_comfort
+b_metro      0.029243    0.059776  5.5144e-04  3.7130e-04   -0.006637
+b_RH         0.059776    0.599653    0.004319    -0.01512   -0.035430
+b_time     5.5144e-04    0.004319  1.0850e-04   2.000e-05  -8.974e-05
+b_cost     3.7130e-04   -0.015123   2.000e-05  9.9009e-04 -2.3040e-04
+b_comfort   -0.006637   -0.035430  -8.974e-05 -2.3040e-04    0.009048
+
+Robust covariance matrix:
+              b_metro        b_RH      b_time      b_cost   b_comfort
+b_metro      0.042068     0.16245    0.001887  -5.207e-05    -0.01143
+b_RH         0.162446     1.25210    0.013570   -0.019443    -0.04808
+b_time       0.001887     0.01357  3.0836e-04   3.850e-05  -7.235e-05
+b_cost     -5.207e-05    -0.01944   3.850e-05    0.001460 -6.8718e-04
+b_comfort   -0.011427    -0.04808  -7.235e-05 -6.8718e-04     0.01175
+
+Classical correlation matrix:
+              b_metro        b_RH      b_time      b_cost   b_comfort
+b_metro       1.00000      0.4514     0.30958     0.06900    -0.40804
+b_RH          0.45141      1.0000     0.53539    -0.62065    -0.48100
+b_time        0.30958      0.5354     1.00000     0.06101    -0.09057
+b_cost        0.06900     -0.6206     0.06101     1.00000    -0.07698
+b_comfort    -0.40804     -0.4810    -0.09057    -0.07698     1.00000
+
+Robust correlation matrix:
+              b_metro        b_RH      b_time      b_cost   b_comfort
+b_metro      1.000000      0.7078     0.52396   -0.006643    -0.51395
+b_RH         0.707809      1.0000     0.69058   -0.454677    -0.39635
+b_time       0.523956      0.6906     1.00000    0.057375    -0.03801
+b_cost      -0.006643     -0.4547     0.05738    1.000000    -0.16588
+b_comfort   -0.513951     -0.3964    -0.03801   -0.165879     1.00000
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+ ID Avg prob per choice
+  2           0.1838410
+ 32           0.2455083
+ 29           0.2900387
+ 19           0.3007294
+  1           0.3355906
+ 39           0.3669776
+  6           0.3693171
+  3           0.3781444
+ 28           0.4004002
+  9           0.4365325
+ 16           0.4479450
+ 25           0.4551131
+ 14           0.4720716
+  7           0.4807024
+ 36           0.4846572
+ 40           0.5096863
+ 27           0.5125633
+ 38           0.5380523
+ 35           0.5474294
+  8           0.5490610
+
+Changes in parameter estimates from starting values:
+              Initial    Estimate  Difference
+b_bus           0.000     0.00000     0.00000
+b_metro         0.000     0.85001     0.85001
+b_RH            0.000    -2.59790    -2.59790
+b_time          0.000    -0.08429    -0.08429
+b_cost          0.000    -0.11241    -0.11241
+b_comfort       0.000     0.39988     0.39988
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                                      
+modelName              "EXPERIMENT1_laptop_baseline_MNL"          
+modelDescr             "MNL for transport choices - ET comparison"
+indivID                "pid"                                      
+outputDirectory        "output/"                                  
+debug                  "FALSE"                                    
+nCores                 "1"                                        
+workInLogs             "FALSE"                                    
+seed                   "13"                                       
+mixing                 "FALSE"                                    
+HB                     "FALSE"                                    
+noValidation           "FALSE"                                    
+noDiagnostics          "FALSE"                                    
+calculateLLC           "TRUE"                                     
+panelData              "TRUE"                                     
+analyticGrad           "TRUE"                                     
+analyticGrad_manualSet "FALSE"                                    
+overridePanel          "FALSE"                                    
+preventOverridePanel   "FALSE"                                    
+noModification         "FALSE"                                    
+
+Hessian routines attempted
+--------------------------
+numerical jacobian of LL analytical gradient
+
+Scaling used in computing Hessian
+---------------------------------
+               Value
+b_metro   0.85000536
+b_RH      2.59789832
+b_time    0.08428986
+b_cost    0.11241165
+b_comfort 0.39988071
+
+
+apollo_probabilities
+----------------------
+function(apollo_beta, apollo_inputs, functionality="estimate"){
+  
+  ### Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+  
+  ### Create list of probabilities P
+  P = list()
+  V = list()
+
+  
+  V[['bus']]=b_bus+b_cost*Bus_cost+b_time*Bus_travel_time+b_comfort*Bus_Comfort
+  
+  V[['metro']]=b_metro+b_cost*metro_cost+b_time*metro_travel_time+b_comfort*metro_Comfort
+  
+  V[['RH']]=b_RH+b_cost*RH_cost+b_time*RH_travel_time+b_comfort*RH_Comfort
+
+  
+  mnl_settings = list(
+    alternatives  = c(bus=1,metro=2,RH=3),
+    avail=1,
+    choiceVar = Choice_id,
+    utilities = V
+  )
+  
+  P[["model"]] = apollo_mnl(mnl_settings, functionality)
+  
+  #P = apollo_combineModels(P, apollo_inputs, functionality)
+  ### Take product across observation for same individual
+  #P = apollo_avgIntraDraws(P, apollo_inputs, functionality)
+  P = apollo_panelProd(P, apollo_inputs, functionality)
+  ### Average across inter-individual draws
+  # P = apollo_avgInterDraws(P, apollo_inputs, functionality)
+  ### Prepare and return outputs of function
+  P = apollo_prepareProb(P, apollo_inputs, functionality)
+  
+  return(P)
+}
+<bytecode: 0x0000016804669da0>

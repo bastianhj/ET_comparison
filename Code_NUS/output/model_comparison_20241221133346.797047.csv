@@ -1,0 +1,23 @@
+"Model name"," EXPERIMENT1_monitor_EAA",""," EXPERIMENT1_laptop_EAA",""," EXPERIMENT1_tablet_EAA",""," EXPERIMENT1_mobile_EAA",""
+"Model description"," MNL for transport choices - ET comparison",""," MNL for transport choices - ET comparison",""," MNL for transport choices - ET comparison",""," MNL for transport choices - ET comparison",""
+"Number of individuals","40","","40","","40","","40",""
+"Number of modelled outcomes","480","","480","","480","","480",""
+"Estimated parameters","8","","8","","8","","8",""
+"Estimation time ((hh:mm:ss)","00:00:14.59","","00:00:13.63","","00:00:13.75","","00:00:15.4",""
+"Iterations","21","","27","","20","","32",""
+"LL(final)","-348.01","","-291.88","","-294.54","","-290.67",""
+"Adj.Rho-square (0)","0.3249","","0.4313","","0.4263","","0.4336",""
+"Adj.Rho-square (C)","0.1206","","0.2752","","0.2431","","0.2807",""
+"AIC","712.01","","599.76","","605.09","","597.34",""
+"BIC","745.4","","633.15","","638.48","","630.73",""
+"","","","","","","","",""
+"","estimate","Rob.t-ratio(0)","estimate","Rob.t-ratio(0)","estimate","Rob.t-ratio(0)","estimate","Rob.t-ratio(0)"
+"b_bus","0",NA,"0",NA,"0",NA,"0",NA
+"b_metro","1.649",NA,"0.951","5.83","1.073",NA,"1.082",NA
+"b_RH","0.694",NA,"-2.212","-2.77","-3.314",NA,"-2.842",NA
+"b_time","-0.04",NA,"-0.137","-4.45","-0.11",NA,"-0.122",NA
+"b_cost","-0.175",NA,"-0.282","-4.25","-0.182",NA,"-0.198",NA
+"b_comfort","0.239",NA,"0.866","5.53","0.363",NA,"-0.825",NA
+"b_time_att","-64.49",NA,"1.928","1.65","25.335",NA,"149.122",NA
+"b_cost_att","0.371",NA,"1.917","2.73","0.724",NA,"0.653",NA
+"b_comfort_att","17.332",NA,"-0.422","-0.76","363.18",NA,"-5.36",NA
