@@ -1,11 +1,11 @@
-Model run by henri using Apollo 0.3.0 on R 4.3.1 for Windows.
+Model run by Bastian_Henriquez using Apollo 0.3.1 on R 4.3.3 for Windows.
 Please acknowledge the use of Apollo by citing Hess & Palma (2019)
   DOI 10.1016/j.jocm.2019.100170
   www.ApolloChoiceModelling.com
 
 Model name                                  : EXPERIMENT2_mobile_baseline_MNL
 Model description                           : MNL for pizzass choices - ET comparison
-Model run at                                : 2024-12-26 17:47:07.552619
+Model run at                                : 2024-12-21 09:31:42.081698
 Estimation method                           : bgw
 Model diagnosis                             : Relative function convergence
 Optimisation diagnosis                      : Maximum found
@@ -31,12 +31,12 @@ AIC                                         :  430.13
 BIC                                         :  442.65 
 
 Estimated parameters                        : 3
-Time taken (hh:mm:ss)                       :  00:00:0.25 
-     pre-estimation                         :  00:00:0.12 
-     estimation                             :  00:00:0.09 
-          initial estimation                :  00:00:0.07 
-          estimation after rescaling        :  00:00:0.02 
-     post-estimation                        :  00:00:0.04 
+Time taken (hh:mm:ss)                       :  00:00:0.32 
+     pre-estimation                         :  00:00:0.13 
+     estimation                             :  00:00:0.12 
+          initial estimation                :  00:00:0.09 
+          estimation after rescaling        :  00:00:0.03 
+     post-estimation                        :  00:00:0.06 
 Iterations                                  :  12  
      initial estimation                     :  9 
      estimation after rescaling             :  3 
@@ -188,4 +188,4 @@ function(apollo_beta, apollo_inputs, functionality="estimate"){
     
     return(P)
   }
-<bytecode: 0x00000268b6ce1650>
+<bytecode: 0x00000168046bf228>

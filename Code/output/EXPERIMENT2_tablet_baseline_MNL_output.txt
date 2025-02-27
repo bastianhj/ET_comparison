@@ -1,118 +1,118 @@
-Model run by Bastian_Henriquez using Apollo 0.3.1 on R 4.3.3 for Windows.
+Model run by henri using Apollo 0.3.0 on R 4.3.1 for Windows.
 Please acknowledge the use of Apollo by citing Hess & Palma (2019)
   DOI 10.1016/j.jocm.2019.100170
   www.ApolloChoiceModelling.com
 
 Model name                                  : EXPERIMENT2_tablet_baseline_MNL
 Model description                           : MNL for pizzass choices - ET comparison
-Model run at                                : 2024-12-21 09:31:36.636645
+Model run at                                : 2024-12-26 17:47:02.127703
 Estimation method                           : bgw
 Model diagnosis                             : Relative function convergence
 Optimisation diagnosis                      : Maximum found
      hessian properties                     : Negative definite
-     maximum eigenvalue                     : -62.44767
-     reciprocal of condition number         : 0.0199081
-Number of individuals                       : 38
-Number of rows in database                  : 456
-Number of modelled outcomes                 : 456
+     maximum eigenvalue                     : -66.101428
+     reciprocal of condition number         : 0.0199934
+Number of individuals                       : 40
+Number of rows in database                  : 480
+Number of modelled outcomes                 : 480
 
 Number of cores used                        :  1 
 Model without mixing
 
-LL(start)                                   : -316.08
-LL at equal shares, LL(0)                   : -316.08
-LL at observed shares, LL(C)                : -315.21
-LL(final)                                   : -190.78
-Rho-squared vs equal shares                  :  0.3964 
-Adj.Rho-squared vs equal shares              :  0.3869 
-Rho-squared vs observed shares               :  0.3948 
-Adj.Rho-squared vs observed shares           :  0.3884 
-AIC                                         :  387.56 
-BIC                                         :  399.92 
+LL(start)                                   : -332.71
+LL at equal shares, LL(0)                   : -332.71
+LL at observed shares, LL(C)                : -332.29
+LL(final)                                   : -201.65
+Rho-squared vs equal shares                  :  0.3939 
+Adj.Rho-squared vs equal shares              :  0.3849 
+Rho-squared vs observed shares               :  0.3932 
+Adj.Rho-squared vs observed shares           :  0.3871 
+AIC                                         :  409.29 
+BIC                                         :  421.82 
 
 Estimated parameters                        : 3
-Time taken (hh:mm:ss)                       :  00:00:0.32 
-     pre-estimation                         :  00:00:0.12 
-     estimation                             :  00:00:0.13 
-          initial estimation                :  00:00:0.1 
-          estimation after rescaling        :  00:00:0.03 
-     post-estimation                        :  00:00:0.08 
-Iterations                                  :  11  
+Time taken (hh:mm:ss)                       :  00:00:0.28 
+     pre-estimation                         :  00:00:0.11 
+     estimation                             :  00:00:0.09 
+          initial estimation                :  00:00:0.07 
+          estimation after rescaling        :  00:00:0.02 
+     post-estimation                        :  00:00:0.07 
+Iterations                                  :  10  
      initial estimation                     :  9 
-     estimation after rescaling             :  2 
+     estimation after rescaling             :  1 
 
 Unconstrained optimisation.
 
 Estimates:
           Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
-b_opt1    -0.05137     0.12632     -0.4066     0.13776       -0.3729
+b_opt1    -0.03608     0.12285     -0.2937     0.13065       -0.2762
 b_opt2     0.00000          NA          NA          NA            NA
-b_qual     0.79723     0.08230      9.6873     0.09692        8.2255
-b_cost    -0.34679     0.04346     -7.9801     0.04718       -7.3497
+b_qual     0.80226     0.07987     10.0446     0.09303        8.6240
+b_cost    -0.35963     0.04265     -8.4320     0.04659       -7.7191
 
 
 Overview of choices for MNL model component :
                                    opt1   opt2
-Times available                  456.00 456.00
-Times chosen                     214.00 242.00
-Percentage chosen overall         46.93  53.07
-Percentage chosen when available  46.93  53.07
+Times available                  480.00 480.00
+Times chosen                     230.00 250.00
+Percentage chosen overall         47.92  52.08
+Percentage chosen when available  47.92  52.08
 
 
 
 Classical covariance matrix:
             b_opt1      b_qual      b_cost
-b_opt1     0.01596  5.7003e-04 -3.2398e-04
-b_qual  5.7003e-04    0.006773   -0.003183
-b_cost -3.2398e-04   -0.003183    0.001889
+b_opt1     0.01509  4.5913e-04 -2.4134e-04
+b_qual  4.5913e-04    0.006379   -0.003036
+b_cost -2.4134e-04   -0.003036    0.001819
 
 Robust covariance matrix:
             b_opt1      b_qual      b_cost
-b_opt1     0.01898  5.8487e-04  5.8744e-04
-b_qual  5.8487e-04    0.009394   -0.003807
-b_cost  5.8744e-04   -0.003807    0.002226
+b_opt1     0.01707  3.3429e-04  6.3512e-04
+b_qual  3.3429e-04    0.008654   -0.003562
+b_cost  6.3512e-04   -0.003562    0.002171
 
 Classical correlation matrix:
             b_opt1      b_qual      b_cost
-b_opt1     1.00000     0.05483    -0.05902
-b_qual     0.05483     1.00000    -0.88995
-b_cost    -0.05902    -0.88995     1.00000
+b_opt1     1.00000     0.04679    -0.04606
+b_qual     0.04679     1.00000    -0.89117
+b_cost    -0.04606    -0.89117     1.00000
 
 Robust correlation matrix:
             b_opt1      b_qual      b_cost
-b_opt1     1.00000     0.04381     0.09038
-b_qual     0.04381     1.00000    -0.83240
-b_cost     0.09038    -0.83240     1.00000
+b_opt1     1.00000     0.02751      0.1043
+b_qual     0.02751     1.00000     -0.8218
+b_cost     0.10434    -0.82176      1.0000
 
  20 worst outliers in terms of lowest average per choice prediction:
  ID Avg prob per choice
- 35           0.4108241
- 37           0.4443581
- 18           0.4662057
- 26           0.4948636
-  9           0.4956284
-  7           0.5689876
- 22           0.5760794
- 10           0.6167439
- 23           0.6227406
- 19           0.6264738
- 17           0.6275375
- 16           0.6295961
- 33           0.6433140
- 11           0.6523830
- 32           0.6739357
-  4           0.6745289
- 38           0.6833506
-  5           0.6868426
- 24           0.6868426
- 29           0.6870822
+ 35           0.4054447
+ 37           0.4501653
+ 18           0.4723644
+ 26           0.4983419
+  9           0.5051771
+ 15           0.5405932
+ 22           0.5763937
+  7           0.5767515
+ 23           0.6128203
+ 16           0.6207980
+ 19           0.6242232
+ 10           0.6263933
+ 33           0.6313412
+ 17           0.6339293
+ 11           0.6536761
+  4           0.6706000
+ 32           0.6734317
+ 38           0.6779001
+ 29           0.6813755
+  1           0.6925933
 
 Changes in parameter estimates from starting values:
            Initial    Estimate  Difference
-b_opt1       0.000    -0.05137    -0.05137
+b_opt1       0.000    -0.03608    -0.03608
 b_opt2       0.000     0.00000     0.00000
-b_qual       0.000     0.79723     0.79723
-b_cost       0.000    -0.34679    -0.34679
+b_qual       0.000     0.80226     0.80226
+b_cost       0.000    -0.35963    -0.35963
 
 Settings and functions used in model definition:
 
@@ -146,9 +146,9 @@ numerical jacobian of LL analytical gradient
 Scaling used in computing Hessian
 ---------------------------------
             Value
-b_opt1 0.05136566
-b_qual 0.79723083
-b_cost 0.34679338
+b_opt1 0.03608157
+b_qual 0.80225673
+b_cost 0.35962676
 
 
 apollo_probabilities
@@ -188,4 +188,4 @@ function(apollo_beta, apollo_inputs, functionality="estimate"){
     
     return(P)
   }
-<bytecode: 0x00000168046bf228>
+<bytecode: 0x00000268b6ce1650>
